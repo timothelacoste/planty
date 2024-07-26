@@ -14,3 +14,277 @@ License URI: https://www.gnu.org/licenses/gpl.html
 Text Domain: planty
 template: blankslate
 */
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 37px;
+}
+
+.header .custom-logo {
+  width: 201px;
+  height: 19px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu-main-menu-container .menu {
+  display: flex;
+  margin: 0;
+  gap: 60px;
+  align-items: center;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #000;
+  font-family: Syne;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.menu-item-26 {
+  padding: 30px 61px;
+  background-color: #dc9f96;
+}
+
+.menu-item-26 a {
+  color: #fff;
+  text-align: center;
+  font-family: Syne;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.title-image {
+  padding: 105px 0px 20px;
+  background-color: #ece2da;
+}
+
+.header-h1 {
+  color: #3b8e46;
+  text-align: center;
+  font-family: Syne;
+  font-size: 38px;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 105px;
+}
+
+.header-top-image {
+  height: 600px;
+}
+
+.wp-image-42 {
+  width: 349px !important;
+  height: 400px !important;
+  position: absolute;
+  z-index: 2;
+  left: 380px;
+}
+
+.wp-image-44 {
+  width: 349px !important;
+  height: 400px !important;
+  position: absolute;
+  z-index: 2;
+  right: 345px;
+}
+
+.wp-image-62 {
+  height: 950px !important;
+  position: absolute;
+  z-index: 3;
+}
+
+.background-image-radius {
+  width: 100%;
+}
+
+.header-h2 {
+  z-index: 4;
+  position: absolute;
+  top: 62px;
+  left: 0;
+  right: 0;
+  color: #3b8e46;
+  font-family: Syne;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+.plant-description {
+  color: #000;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 120px;
+  text-align: center;
+  font-family: Syne;
+  font-size: 20px !important;
+  line-height: normal;
+  z-index: 4;
+}
+
+.wp-image-73,
+.wp-image-95 {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  bottom: 50px;
+}
+
+.plant-energy {
+  position: relative;
+  background-color: #ece2da;
+}
+
+.tastes {
+  background-color: #ece2da;
+  padding: 0px 170px 50px 170px;
+}
+
+.header-h3 {
+  color: #d2776a;
+  text-align: center;
+  font-family: Syne;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.text-taste {
+  color: #000;
+  text-align: center;
+  font-family: Syne;
+  font-size: 20px;
+  line-height: normal;
+  margin-block: 7px 50px;
+}
+
+.column-style {
+  gap: 30px;
+  margin: 0px 0px 40px 0px;
+}
+
+.column-style-2 {
+  gap: 30px;
+}
+
+.wp-image-47,
+.wp-image-48,
+.wp-image-78,
+.wp-image-79 {
+  object-fit: fill !important;
+}
+
+.command-button {
+  padding: 9px 57px 9px 56px;
+}
+
+.command-button a {
+  border-radius: 5px;
+  background: #e0b9b4;
+  color: #fff;
+  text-align: center;
+  font-family: Syne;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 37px;
+}
+
+.header-h6 {
+  position: absolute;
+  color: #3b8e46;
+  text-align: center;
+  font-family: Syne;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  z-index: 5;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin-block: 80px;
+}
+
+.image-display {
+  display: flex;
+}
+
+.grid-team {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr);
+  position: absolute;
+  top: 158px;
+  z-index: 5;
+  width: 100%;
+  padding-inline: 130px;
+}
+
+.team-right-side {
+  margin: 0;
+}
+
+.one-member {
+  display: flex;
+  gap: 20px;
+}
+
+.member-name {
+  color: #3b8e46;
+  font-family: Syne;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.member-message {
+  color: #000;
+  font-family: Syne;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.our-team {
+  position: relative;
+}
+
+.wp-image-51,
+.wp-image-52,
+.wp-image-53 {
+  width: 290px;
+}
+
+.image-footer {
+  margin: 0;
+}
+
+.image-footer img {
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px 20px 0px;
+}
+
+.menu-footer-menu-container #menu-footer-menu {
+  padding: 0;
+  margin: 0;
+}

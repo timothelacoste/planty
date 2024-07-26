@@ -6,8 +6,10 @@ function theme_enqueue_styles()
     wp_enqueue_style('parent_style', get_template_directory_uri() . '/style.css');
 }
 
-function themename_custom_logo_setup()
+function planty_custom_logo_setup()
 {
     add_theme_support('custom-logo');
 }
-add_action('after_setup_theme', 'themename_custom_logo_setup');
+add_action('after_setup_theme', 'planty_custom_logo_setup');
+
+register_nav_menu('footer-menu', __('Footer Menu'));
