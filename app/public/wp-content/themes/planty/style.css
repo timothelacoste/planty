@@ -84,26 +84,50 @@ body {
   height: 600px;
 }
 
+@media screen and (max-width: 768px) {
+  .header-top-image {
+    height: 400px;
+  }
+}
+
 .wp-image-42 {
   width: 349px !important;
-  height: 400px !important;
   position: absolute;
   z-index: 2;
-  left: 380px;
+  left: 390px;
+}
+
+@media screen and (max-width: 768px) {
+  .wp-image-42 {
+    width: 175px !important;
+    left: 210px;
+  }
 }
 
 .wp-image-44 {
   width: 349px !important;
-  height: 400px !important;
   position: absolute;
   z-index: 2;
-  right: 345px;
+  right: 350px;
+}
+
+@media screen and (max-width: 768px) {
+  .wp-image-44 {
+    width: 175px !important;
+    right: 190px;
+  }
 }
 
 .wp-image-62 {
   height: 950px !important;
   position: absolute;
   z-index: 3;
+}
+
+@media screen and (max-width: 768px) {
+  .wp-image-62 {
+    height: 560px !important;
+  }
 }
 
 .background-image-radius {
