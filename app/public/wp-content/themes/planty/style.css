@@ -65,8 +65,14 @@ body {
 }
 
 .title-image {
-  padding: 105px 0px 20px;
+  padding-top: 100px;
   background-color: #ece2da;
+}
+
+@media screen and (max-width: 768px) {
+  .title-image {
+    padding-top: 60px;
+  }
 }
 
 .header-h1 {
@@ -77,7 +83,12 @@ body {
   font-weight: 800;
   line-height: normal;
   text-transform: uppercase;
-  margin-top: 105px;
+}
+
+@media screen and (max-width: 768px) {
+  .header-h1 {
+    font-size: 30px;
+  }
 }
 
 .header-top-image {
