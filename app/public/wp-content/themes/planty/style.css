@@ -217,6 +217,12 @@ body {
   margin: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .header-h3 {
+    font-size: 25px;
+  }
+}
+
 .text-taste {
   color: #000;
   text-align: center;
@@ -224,6 +230,13 @@ body {
   font-size: 20px;
   line-height: normal;
   margin-block: 7px 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .text-taste {
+    font-size: 14px;
+    margin-block: 7px 20px;
+  }
 }
 
 .column-style {
@@ -338,4 +351,10 @@ body {
 .menu-footer-menu-container #menu-footer-menu {
   padding: 0;
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .block-taste {
+    min-height: 250px !important;
+  }
 }
