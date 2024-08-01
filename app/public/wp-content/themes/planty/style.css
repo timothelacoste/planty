@@ -317,10 +317,10 @@ body {
   display: grid !important;
   grid-template-columns: repeat(3, 1fr);
   position: absolute;
-  top: 158px;
+  top: 185px;
   z-index: 5;
-  width: 100%;
-  padding-inline: 130px;
+  padding-inline: 100px;
+  gap: 50px;
 }
 
 @media screen and (max-width: 768px) {
@@ -340,12 +340,24 @@ body {
   gap: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .one-member {
+    gap: 10px;
+  }
+}
+
 .member-name {
   color: #3b8e46;
   font-family: Syne;
   font-size: 30px;
   font-weight: 700;
   line-height: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .member-name {
+    font-size: 25px;
+  }
 }
 
 .member-message {
@@ -355,14 +367,30 @@ body {
   line-height: normal;
 }
 
+@media screen and (max-width: 768px) {
+  .member-message {
+    font-size: 12px;
+    margin-block: 10px;
+  }
+}
+
 .our-team {
   position: relative;
+  margin-bottom: 120px;
 }
 
 .wp-image-51,
 .wp-image-52,
 .wp-image-53 {
-  width: 290px;
+  min-width: 170px;
+}
+
+@media screen and (max-width: 768px) {
+  .wp-image-51,
+  .wp-image-52,
+  .wp-image-53 {
+    min-width: 90px;
+  }
 }
 
 .image-footer {
