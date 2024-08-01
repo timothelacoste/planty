@@ -253,6 +253,7 @@ body {
 
 .column-style-2 {
   gap: 30px;
+  margin: 0px 0px 40px 0px;
 }
 
 @media screen and (max-width: 768px) {
@@ -281,6 +282,7 @@ body {
   font-size: 15px;
   font-weight: 400;
   line-height: 37px;
+  padding: 20px 80px;
 }
 
 .header-h6 {
