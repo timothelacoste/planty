@@ -161,6 +161,13 @@ body {
   margin: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .header-h2 {
+    top: 0;
+    font-size: 25px;
+  }
+}
+
 .plant-description {
   color: #000;
   position: absolute;
@@ -172,6 +179,13 @@ body {
   font-size: 20px !important;
   line-height: normal;
   z-index: 4;
+}
+
+@media screen and (max-width: 768px) {
+  .plant-description {
+    top: 25px;
+    font-size: 14px !important;
+  }
 }
 
 .wp-image-73,
