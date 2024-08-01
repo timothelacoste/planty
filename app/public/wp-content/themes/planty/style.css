@@ -95,7 +95,7 @@ body {
   position: absolute;
   z-index: 2;
   left: 390px;
-  height: auto;
+  height: auto !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -109,7 +109,7 @@ body {
   width: 349px !important;
   position: absolute;
   z-index: 2;
-  height: auto;
+  height: auto !important;
   right: 350px;
 }
 
