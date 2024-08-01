@@ -259,6 +259,7 @@ body {
 @media screen and (max-width: 768px) {
   .column-style-2 {
     gap: 15px;
+    margin: 0px 0px 15px 0px;
   }
 }
 
@@ -299,6 +300,13 @@ body {
   right: 0;
   left: 0;
   margin-block: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .header-h6 {
+    font-size: 25px;
+    margin: 0;
+  }
 }
 
 .image-display {
