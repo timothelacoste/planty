@@ -23,6 +23,8 @@ body {
   margin: 0 auto;
 }
 
+/* header */
+
 .header {
   display: flex;
   align-items: center;
@@ -106,6 +108,8 @@ body {
 #menu-item-26 a {
   color: #fff;
 }
+
+/* Homepage */
 
 .title-image {
   padding-top: 100px;
@@ -518,6 +522,8 @@ body {
   }
 }
 
+/* Footer */
+
 .image-footer {
   margin: 0;
 }
@@ -536,3 +542,324 @@ body {
   padding: 0;
   margin: 0;
 }
+
+/* Nous rencontrer */
+
+.meet-top-page {
+  position: relative;
+  padding-block: 185px 80px;
+  background-color: #ece2da;
+  border-bottom-right-radius: 50% 6%;
+  border-bottom-left-radius: 50% 6%;
+}
+
+@media screen and (max-width: 920px) {
+  .meet-top-page {
+    padding-block: 90px 80px;
+  }
+}
+
+.meet-top-image {
+  left: 10%;
+  top: 20%;
+  position: absolute;
+}
+
+@media screen and (max-width: 920px) {
+  .meet-top-image {
+    top: 0;
+    left: 0;
+  }
+  .meet-top-image img {
+    max-width: 100px;
+  }
+}
+
+.meet-h1 {
+  color: #d2776a;
+  text-align: center;
+  font-family: Syne;
+  font-size: 38px;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0 0 27px 0;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .meet-h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .meet-h1 {
+    font-size: 25px;
+  }
+}
+
+.team-planty-description {
+  color: #000;
+  text-align: center;
+  font-family: Syne;
+  font-size: 20px;
+  line-height: normal;
+  max-width: 55%;
+  margin: auto;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .team-planty-description {
+    font-size: 16px;
+    max-width: 80%;
+  }
+}
+
+.the-team {
+  display: flex;
+  justify-content: center;
+  padding-block: 80px;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .the-team {
+    padding: 40px 0 80px 40px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .the-team {
+    padding: 40px 0;
+  }
+}
+
+.meet-h2 {
+  color: #000;
+  text-align: center;
+  font-family: Syne;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .meet-h2 {
+    margin-bottom: 40px;
+  }
+}
+
+.team-member-column {
+  gap: 130px;
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .team-member-column {
+    gap: 70px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .team-member-column {
+    gap: 30px;
+  }
+}
+
+.one-team-member {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .one-team-member {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .one-team-member {
+    gap: 0px;
+    flex-direction: column;
+  }
+}
+
+.team-member-image img {
+  max-width: 165px;
+}
+
+.team-member-name {
+  color: #000;
+  text-align: center;
+  font-family: Syne;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.team-member-job {
+  color: #000;
+  text-align: center;
+  font-family: Syne;
+  font-size: 20px;
+  line-height: normal;
+  margin-top: 10px;
+}
+
+.team-member-leaf {
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+  width: 190px;
+  height: 220px;
+  margin: 0;
+}
+
+.section-meet-contact-form {
+  display: flex;
+  justify-content: center;
+  background-color: #ece2da;
+  padding-block: 70px 80px;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .section-meet-contact-form {
+    padding-block: 35px 40px;
+  }
+}
+
+.section-meet-contact-form p {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.meet-h3 {
+  color: #000;
+  text-align: center;
+  font-family: Syne;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 45px;
+}
+
+.meet-contact-form {
+  position: relative;
+  z-index: 2;
+}
+
+.meet-contact-form-label {
+  color: #000;
+  font-family: Syne;
+  font-size: 20px;
+  line-height: normal;
+}
+
+.meet-contact-form-label input {
+  width: 383px;
+  height: 71px;
+  margin-block: 13px 22px;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+}
+
+@media screen and (max-width: 768px) {
+  .meet-contact-form-label input {
+    width: 200px;
+    height: 50px;
+  }
+}
+
+.meet-contact-form-label textarea {
+  width: 383px;
+  height: 237px;
+  margin-block: 13px 24px;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+}
+
+@media screen and (max-width: 768px) {
+  .meet-contact-form-label textarea {
+    width: 200px;
+    height: 150px;
+  }
+}
+
+.meet-contact-form-submit {
+  display: flex;
+  justify-content: center;
+}
+
+.meet-contact-form-submit .has-spinner {
+  color: #fff;
+  text-align: center;
+  font-family: Syne;
+  font-size: 15px;
+  line-height: 37px;
+  padding: 15px 35px;
+  width: -webkit-fill-available;
+  border-radius: 5px;
+  border: none;
+  background-color: #e0b9b4;
+}
+
+@media screen and (max-width: 550px) {
+  .meet-contact-form-submit .has-spinner {
+    padding: 10px 30px;
+  }
+}
+
+.wpcf7-spinner {
+  display: none;
+}
+
+.contact-form-image {
+  position: absolute;
+  left: calc(43% - 178px);
+  bottom: calc(35% - 178px);
+  z-index: 1;
+}
+
+@media screen and (max-width: 920px) {
+  .contact-form-image {
+    left: calc(39% - 178px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-form-image {
+    left: calc(36% - 178px);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .contact-form-image {
+    left: 0;
+    bottom: 0;
+  }
+  .contact-form-image img {
+    width: 100px;
+  }
+}
+
+.meet-image-footer {
+  margin: 0;
+  background-color: #ece2da;
+}
+
+.meet-image-footer img {
+  width: 100%;
+}
+
+
+/* Commander */
+
