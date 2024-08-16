@@ -350,14 +350,6 @@ body {
   margin: auto;
 }
 
-@media screen and (max-width: 920px) {
-  .wp-block-group__inner-container {
-    grid-template-columns: repeat(2, 1fr) !important;
-    row-gap: 20px;
-    column-gap: 15px;
-  }
-}
-
 .one-taste {
   min-height: 262px;
 }
@@ -477,7 +469,7 @@ body {
   }
 }
 
-@media screen and (max-width: 781px) {
+@media screen and (max-width: 768px) {
   .one-member {
     grid-template-columns: 1fr 1.5fr;
   }
@@ -589,12 +581,6 @@ body {
 
 @media screen and (max-width: 768px) {
   .meet-h1 {
-    font-size: 30px;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .meet-h1 {
     font-size: 25px;
   }
 }
@@ -605,7 +591,7 @@ body {
   font-family: Syne;
   font-size: 20px;
   line-height: normal;
-  max-width: 55%;
+  max-width: 47%;
   margin: auto;
   position: relative;
 }
@@ -624,15 +610,15 @@ body {
   position: relative;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 920px) {
   .the-team {
-    padding: 40px 0 80px 40px;
+    padding-block: 50px;
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 768px) {
   .the-team {
-    padding: 40px 0;
+    padding-block: 40px;
   }
 }
 
@@ -658,15 +644,17 @@ body {
   z-index: 1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 920px) {
   .team-member-column {
-    gap: 70px;
+    row-gap: 20px;
+    column-gap: 50px;
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 768px) {
   .team-member-column {
-    gap: 30px;
+    flex-direction: column;
+    row-gap: 20px;
   }
 }
 
@@ -678,19 +666,19 @@ body {
   .one-team-member {
     display: flex;
     align-items: center;
-    gap: 30px;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .one-team-member {
-    gap: 0px;
+    gap: 15px;
     flex-direction: column;
   }
 }
 
 .team-member-image img {
   max-width: 165px;
+}
+
+@media screen and (max-width: 768px) {
+  .team-member-description-block {
+    margin: 0;
+  }
 }
 
 .team-member-name {
@@ -738,6 +726,7 @@ body {
   margin: 0;
   display: flex;
   justify-content: center;
+  width: -webkit-fill-available;
 }
 
 .meet-h3 {
@@ -753,6 +742,7 @@ body {
 .meet-contact-form {
   position: relative;
   z-index: 2;
+  margin: 0;
 }
 
 .meet-contact-form-label {
@@ -763,8 +753,8 @@ body {
 }
 
 .meet-contact-form-label input {
-  width: 383px;
-  height: 71px;
+  width: 379px;
+  height: 69px;
   margin-block: 13px 22px;
   border: none;
   border-radius: 7px;
@@ -779,9 +769,9 @@ body {
 }
 
 .meet-contact-form-label textarea {
-  width: 383px;
-  height: 237px;
-  margin-block: 13px 24px;
+  width: 379px;
+  height: 233px;
+  margin-block: 13px 16px;
   border: none;
   border-radius: 7px;
   box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
@@ -794,28 +784,19 @@ body {
   }
 }
 
-.meet-contact-form-submit {
+.meet-contact {
   display: flex;
   justify-content: center;
-}
-
-.meet-contact-form-submit .has-spinner {
   color: #fff;
   text-align: center;
   font-family: Syne;
   font-size: 15px;
   line-height: 37px;
-  padding: 15px 35px;
-  width: -webkit-fill-available;
+  width: 198px;
+  height: 55px;
   border-radius: 5px;
   border: none;
   background-color: #e0b9b4;
-}
-
-@media screen and (max-width: 550px) {
-  .meet-contact-form-submit .has-spinner {
-    padding: 10px 30px;
-  }
 }
 
 .wpcf7-spinner {
@@ -824,29 +805,21 @@ body {
 
 .contact-form-image {
   position: absolute;
-  left: calc(43% - 178px);
-  bottom: calc(35% - 178px);
+  left: calc(50% - 281px);
+  bottom: 90px;
   z-index: 1;
 }
 
 @media screen and (max-width: 920px) {
   .contact-form-image {
-    left: calc(39% - 178px);
+    bottom: 90px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .contact-form-image {
-    left: calc(36% - 178px);
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .contact-form-image {
-    left: 0;
-    bottom: 0;
-  }
-  .contact-form-image img {
+    left: calc(50% - 152px);
+    bottom: 80px;
     width: 100px;
   }
 }
@@ -860,6 +833,4 @@ body {
   width: 100%;
 }
 
-
 /* Commander */
-
