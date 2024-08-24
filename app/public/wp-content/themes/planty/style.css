@@ -87,10 +87,16 @@ body {
   font-size: 16px;
   line-height: normal;
 }
-
-#menu-item-26 {
+#menu-main-menu li:first-child {
+  order: 1;
+}
+#menu-main-menu li:nth-child(2) {
   padding: 30px 60px;
   background-color: #dc9f96;
+  order: 3;
+}
+#menu-main-menu li:last-child {
+  order: 2;
 }
 
 @media screen and (max-width: 920px) {
@@ -834,3 +840,280 @@ body {
 }
 
 /* Commander */
+.order-page {
+  display: flex;
+  background-color: #3b8e46;
+  padding-block: 70px 95px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 920px) {
+  .order-page {
+    padding-block: 50px 50px;
+  }
+}
+
+.order-title {
+  color: #fff;
+  text-align: center;
+  font-family: Syne;
+  font-size: 38px;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 920px) {
+  .order-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+  }
+}
+
+.order-title::after {
+  content: "";
+  display: block;
+  width: 860px;
+  height: 1px;
+  background-color: #fff;
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 920px) {
+  .order-title::after {
+    width: 300px;
+    margin-top: 30px;
+  }
+}
+
+.order-h2 {
+  color: #fff;
+  font-family: Syne;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: normal;
+  margin-block: 40px 0;
+}
+
+@media screen and (max-width: 920px) {
+  .order-h2 {
+    text-align: center;
+  }
+}
+
+.order-grid {
+  margin-block: 40px 15px;
+  gap: 30px;
+}
+
+.order-grid .wp-block-group {
+  gap: 30px;
+  flex: 1;
+}
+
+@media screen and (max-width: 920px) {
+  .order-grid {
+    flex-direction: column;
+  }
+  .order-grid,
+  .order-grid .wp-block-group {
+    justify-content: center;
+  }
+}
+
+.order-one-taste {
+  width: 192px;
+  min-height: 128px;
+}
+
+.order-image-placeholder {
+  color: #fff;
+  text-align: center;
+  font-family: Syne;
+  font-size: 20px !important;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.order-form {
+  display: flex;
+  margin: 0;
+}
+
+@media screen and (max-width: 920px) {
+  .order-form {
+    justify-content: center;
+  }
+}
+
+.quantity-form {
+  width: 860px;
+}
+
+
+@media screen and (max-width: 920px) {
+  .quantity-form {
+    width: 300px;
+  }
+}
+
+.quantity-form::after {
+  content: "";
+  display: block;
+  width: 860px;
+  height: 1px;
+  background-color: #fff;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 920px) {
+  .quantity-form::after {
+    width: 300px;
+    margin: auto;
+  }
+}
+
+.quantity-form p {
+  display: flex;
+  margin: 0;
+  gap: 30px;
+}
+
+@media screen and (max-width: 920px) {
+  .quantity-form p {
+    margin: 0 0 20px 0;
+  }
+}
+
+.quantity-form p span {
+  flex: 1;
+  justify-content: space-around;
+  display: flex;
+}
+
+.amount {
+  width: 39px;
+  height: 56px;
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.information-form {
+  display: flex;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 920px) {
+  .information-form {
+    flex-direction: column;
+  }
+}
+
+.vos-informations {
+  display: flex;
+}
+
+@media screen and (max-width: 920px) {
+  .vos-informations {
+    display: block;
+  }
+}
+
+.vos-informations::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 470px;
+  background-color: #fff;
+  margin-inline: 45px;
+}
+
+@media screen and (max-width: 920px) {
+  .vos-informations::after {
+    width: 300px;
+    height: 1px;
+    margin: 0 0 40px 0;
+  }
+}
+
+.informations h2 {
+  color: #fff;
+  font-family: Syne;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: normal;
+  margin-block: 0 30px;
+}
+
+.informations p {
+  margin: 0;
+}
+
+.informations label {
+  color: #fff;
+  font-family: Syne;
+  font-size: 20px;
+  line-height: normal;
+}
+
+.informations input {
+  margin-block: 13px 30px;
+  width: 375px;
+  height: 70px;
+  border-radius: 7px;
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+}
+
+@media screen and (max-width: 920px) {
+  .informations input {
+    width: 300px;
+    height: 50px;
+  }
+}
+
+.detail-livraison h2 {
+  color: #fff;
+  font-family: Syne;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: normal;
+  margin-block: 0 30px;
+}
+
+.detail-livraison p {
+  margin: 0;
+}
+
+.detail-livraison label {
+  color: #fff;
+  font-family: Syne;
+  font-size: 20px;
+  line-height: normal;
+}
+
+.detail-livraison input {
+  margin-block: 13px 30px;
+  width: 375px;
+  height: 70px;
+  border-radius: 7px;
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+}
+
+@media screen and (max-width: 920px) {
+  .detail-livraison input {
+    width: 300px;
+    height: 50px;
+  }
+}
+
+.order-submit {
+  display: flex;
+  justify-content: center;
+}

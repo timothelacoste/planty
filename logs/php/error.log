@@ -1,0 +1,15 @@
+[23-Aug-2024 17:48:22 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_admin_link_to_menu(), 1 passed in C:\Users\lacos\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 326 and exactly 2 expected in C:\Users\lacos\Local Sites\planty\app\public\wp-content\themes\planty\functions.php:17
+Stack trace:
+#0 C:\Users\lacos\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(326): add_admin_link_to_menu('<li id="menu-it...')
+#1 C:\Users\lacos\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\Users\lacos\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\Users\lacos\Local Sites\planty\app\public\wp-content\themes\planty\header.php(20): wp_nav_menu(Object(stdClass))
+#4 C:\Users\lacos\Local Sites\planty\app\public\wp-includes\template.php(810): require_once('C:\\Users\\lacos\\...')
+#5 C:\Users\lacos\Local Sites\planty\app\public\wp-includes\template.php(745): load_template('C:\\Users\\lacos\\...', true, Array)
+#6 C:\Users\lacos\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\Users\lacos\Local Sites\planty\app\public\wp-content\themes\planty\page.php(1): get_header()
+#8 C:\Users\lacos\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lacos\\...')
+#9 C:\Users\lacos\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lacos\\...')
+#10 C:\Users\lacos\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\lacos\\...')
+#11 {main}
+  thrown in C:\Users\lacos\Local Sites\planty\app\public\wp-content\themes\planty\functions.php on line 17
