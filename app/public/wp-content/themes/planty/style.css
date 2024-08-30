@@ -472,12 +472,6 @@ body {
   gap: 20px;
 }
 
-@media screen and (max-width: 920px) {
-  .one-member {
-    grid-template-columns: 1fr;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .one-member {
     grid-template-columns: 1fr 1.5fr;
