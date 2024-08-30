@@ -87,26 +87,29 @@ body {
   font-size: 16px;
   line-height: normal;
 }
+
 #menu-main-menu li:first-child {
   order: 1;
 }
+
 #menu-main-menu li:nth-child(2) {
-  padding: 30px 60px;
   background-color: #dc9f96;
   order: 3;
+  padding: 30px 60px;
 }
+
 #menu-main-menu li:last-child {
   order: 2;
 }
 
 @media screen and (max-width: 920px) {
-  #menu-item-26 {
+  #menu-main-menu li:nth-child(2) {
     padding: 20px 40px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  #menu-item-26 {
+  #menu-main-menu li:nth-child(2) {
     padding: 10px 15px;
   }
 }
@@ -951,7 +954,6 @@ body {
 .quantity-form {
   width: 860px;
 }
-
 
 @media screen and (max-width: 920px) {
   .quantity-form {
